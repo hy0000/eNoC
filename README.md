@@ -8,10 +8,11 @@ supports real-time observation of noc performance during simulation.
 ### Baseline Topology
 
 ### random traffic
-dest_x = random() 
-
-### transpose traffic
-dest_x = src_x+b/2
+dest_x = random()
 
 ### reverse traffic
 dest_x = b-1-src_x
+
+### custom0 traffic
+dest_x = random() if src_x==0 \
+dest_x = 0 if src_x!=0
