@@ -1,4 +1,4 @@
-package projectname
+package noc
 
 import spinal.core._
 import spinal.core.sim._
